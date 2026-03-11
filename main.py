@@ -40,6 +40,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/", tags=["General"])
+def root():
+    return {
+        "message": "Customer Churn Prediction API",
+        "docs": "/docs",
+        "health": "/health"
+    }
+
 
 @app.get("/health", response_model=HealthResponse, tags=["Monitoring"])
 def health_check():
