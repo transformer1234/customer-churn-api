@@ -98,7 +98,8 @@ pytest tests/ -v
 
 ---
 
-## 🔧 Improvements Over Original (https://github.com/transformer1234/Customer-Churn-Prediction)
+## 🔧 Improvements Over Original 
+(https://github.com/transformer1234/Customer-Churn-Prediction)
 
 | Original | This API |
 |----------|----------|
