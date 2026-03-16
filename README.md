@@ -88,6 +88,10 @@ curl -X POST http://localhost:8000/predict \
 The API is deployed and accessible at:
 **https://customer-churn-api-2gm3.onrender.com**
 
+### Try it out
+Interactive API docs available at:
+**https://customer-churn-api-2gm3.onrender.com/docs**
+
 ---
 
 ## 🧪 Tests
