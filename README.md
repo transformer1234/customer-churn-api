@@ -84,25 +84,9 @@ curl -X POST http://localhost:8000/predict \
 
 ---
 
-## ☁️ Deployment Options
-
-### Option 1: Railway / Render (Easiest)
-1. Push this folder to a GitHub repo
-2. Connect to [Railway](https://railway.app) or [Render](https://render.com)
-3. Set start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-4. Done — public URL provided automatically
-
-### Option 2: AWS / GCP / Azure (Production)
-- Build Docker image → push to ECR/GCR/ACR
-- Deploy on ECS Fargate / Cloud Run / Azure Container Apps
-- Mount a persistent volume for `model_artifacts/`
-
-### Option 3: Heroku
-```bash
-heroku create churn-api
-heroku container:push web
-heroku container:release web
-```
+## 🚀 Live Demo
+The API is deployed and accessible at:
+**https://customer-churn-api-2gm3.onrender.com**
 
 ---
 
@@ -114,7 +98,7 @@ pytest tests/ -v
 
 ---
 
-## 🔧 Improvements Over Original
+## 🔧 Improvements Over Original (https://github.com/transformer1234/Customer-Churn-Prediction)
 
 | Original | This API |
 |----------|----------|
