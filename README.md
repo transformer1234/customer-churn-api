@@ -94,11 +94,12 @@ Interactive API docs available at:
 
 ---
 
-## 🧪 Tests
+## 🧪 Running Tests
 
 ```bash
 pytest tests/ -v
 ```
+**6 tests passed** covering prediction, batch inference, training, and health endpoints.
 
 ---
 
