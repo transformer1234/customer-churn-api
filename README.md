@@ -1,5 +1,12 @@
 # 🔁 Customer Churn Prediction — REST API
 
+![Docker](https://img.shields.io/badge/docker-ready-blue?logo=docker)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-teal?logo=fastapi)
+![Python](https://img.shields.io/badge/python-3.10+-blue?logo=python)
+![Deployed](https://img.shields.io/badge/deployed-Render-purple?logo=render)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Tests](https://img.shields.io/badge/tests-6%20passed-brightgreen)
+
 A production-ready FastAPI service for predicting customer churn.
 
 ---
